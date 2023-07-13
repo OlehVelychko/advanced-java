@@ -1,0 +1,2 @@
+package HighlightEncapsulateAndProgramAtInterfaceLevel.DucksForImplementation;public class Squeak {
+}
