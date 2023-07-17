@@ -2,9 +2,9 @@ package HighlightEncapsulateAndProgramAtInterfaceLevel.DucksForImplementationVoi
 
 import HighlightEncapsulateAndProgramAtInterfaceLevel.Interfaces.FlyBehavior;
 
-public class FlyWithWings implements FlyBehavior {
+public class FlyRocketPowered implements FlyBehavior {
     @Override
     public void fly() {
-        System.out.println("I'm flying...!!!");
+        System.out.println("I’m flying with a rocket!");
     }
 }
