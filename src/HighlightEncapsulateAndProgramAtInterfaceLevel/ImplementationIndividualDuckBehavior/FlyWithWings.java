@@ -1,4 +1,4 @@
-package HighlightEncapsulateAndProgramAtInterfaceLevel.DucksForImplementationVoids;
+package HighlightEncapsulateAndProgramAtInterfaceLevel.ImplementationIndividualDuckBehavior;
 
 import HighlightEncapsulateAndProgramAtInterfaceLevel.Interfaces.FlyBehavior;
 

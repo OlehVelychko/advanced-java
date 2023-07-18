@@ -1,8 +1,8 @@
 package HighlightEncapsulateAndProgramAtInterfaceLevel.RealDucks;
 
 import HighlightEncapsulateAndProgramAtInterfaceLevel.Duck;
-import HighlightEncapsulateAndProgramAtInterfaceLevel.DucksForImplementationVoids.FlyWithWings;
-import HighlightEncapsulateAndProgramAtInterfaceLevel.DucksForImplementationVoids.Quack;
+import HighlightEncapsulateAndProgramAtInterfaceLevel.ImplementationIndividualDuckBehavior.FlyWithWings;
+import HighlightEncapsulateAndProgramAtInterfaceLevel.ImplementationIndividualDuckBehavior.Quack;
 
 public class MallardDuck extends Duck {
     public MallardDuck() {
