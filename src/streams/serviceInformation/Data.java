@@ -32,13 +32,19 @@ public class Data {
     public List<Human> createHumanData() {
         List<Human> humanList = new ArrayList<>();
 
-        Human human1 = new Human("Alice", 1);
-        Human human2 = new Human("Rita", 35);
-        Human human3 = new Human("Kuznets", 34);
+        Human human1 = new Human("Alice", 1, Human.Sex.FEMALE);
+        Human human2 = new Human("Rita", 35, Human.Sex.FEMALE);
+        Human human3 = new Human("Grandma", 83, Human.Sex.FEMALE);
+        Human human4 = new Human("Mummy", 62, Human.Sex.FEMALE);
+        Human human5 = new Human("Dad", 63, Human.Sex.MALE);
+        Human human6 = new Human("Oleh", 34, Human.Sex.MALE);
 
         humanList.add(human1);
         humanList.add(human2);
         humanList.add(human3);
+        humanList.add(human4);
+        humanList.add(human5);
+        humanList.add(human6);
 
         return humanList;
     }
@@ -49,7 +55,7 @@ public class Data {
      * @return int[]
      */
     public int[] createIntArrayData() {
-        return new int[]{5, 2, 7, 4, 6, 78, 0, 2, 1, 7, 5, 23};
+        return new int[]{5, 2, 3, 7, 4, 6, 78, 0, 2, 12, 1, 7, 5, 23};
     }
 
     /**
