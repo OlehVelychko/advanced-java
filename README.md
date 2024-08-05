@@ -1,2 +1,7 @@
 # AdvancedJava
-Continuation of my Java learning - Design patterns and More
+Continuation of my Java learning:
+- design patterns;
+- streams;
+- functional interfaces;
+- work with files&path;
+- algorithms ...
