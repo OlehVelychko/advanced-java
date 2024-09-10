@@ -21,11 +21,12 @@ public class ForEachExample {
 //        Arrays.stream(array).forEach(element -> Utils.myMethod(element));
 
     }
-}
 
-class Utils {
-    public static void myMethod(int x) {
-        x += 5;
-        System.out.println("that is " + x);
+    private static class Utils {
+        public static void myMethod(int x) {
+            x += 5;
+            System.out.println("that is " + x);
+        }
     }
 }
+
