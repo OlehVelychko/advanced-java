@@ -1,6 +1,6 @@
 package algorithms;
 
-public class SelectionSortExample {
+public class SelectionSort {
 
     // Метод для выполнения сортировки выбором
     public static void selectionSort(int[] array) {

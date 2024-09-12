@@ -1,6 +1,6 @@
 package algorithms;
 
-public class QuickSortExample {
+public class QuickSort {
 
     // Метод для выполнения быстрой сортировки
     public static void quickSort(int[] array, int low, int high) {

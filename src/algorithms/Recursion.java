@@ -1,6 +1,6 @@
 package algorithms;
 
-public class RecursionExample {
+public class Recursion {
 
     // Recursive method to calculate factorial
     public static int factorial(int n) {

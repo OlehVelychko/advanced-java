@@ -2,12 +2,12 @@ package algorithms;
 
 import java.util.*;
 
-public class BreadthFirstSearchExample {
+public class BreadthFirstSearch {
 
     // Define the graph using a HashMap. Each person is associated with a list of their friends.
     private final Map<String, List<String>> graph;
 
-    public BreadthFirstSearchExample() {
+    public BreadthFirstSearch() {
         graph = new HashMap<>();
         // Populate the graph with friends of each person.
         graph.put("you", Arrays.asList("alice", "bob", "claire"));
@@ -59,7 +59,7 @@ public class BreadthFirstSearchExample {
 
     public static void main(String[] args) {
         // Create the BFS object and start the search from "you".
-        BreadthFirstSearchExample bfs = new BreadthFirstSearchExample();
+        BreadthFirstSearch bfs = new BreadthFirstSearch();
         bfs.search("you");
     }
 }

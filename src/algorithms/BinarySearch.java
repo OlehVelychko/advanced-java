@@ -1,6 +1,6 @@
 package algorithms;
 
-public class BinarySearchExample {
+public class BinarySearch {
     // Метод бинарного поиска
     public static int binarySearch(int[] array, int target) {
         int left = 0;  // Начальный индекс
