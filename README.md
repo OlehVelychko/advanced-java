@@ -1,4 +1,5 @@
-# AdvancedJava
+# advanced-java
+
 Continuation of my Java learning:
 - design patterns;
 - streams;
